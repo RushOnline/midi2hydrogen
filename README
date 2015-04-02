@@ -1,0 +1,34 @@
+midi2hydrogen.py 0.1, 19-07-2008
+
+# http://www.dainaccio.wordpress.com
+# Author: Dainaccio, superdinoz at yahoo dot it
+
+# This software is released under GPLv3 license:
+# http://www.gnu.org/licenses/gpl.html
+
+# You're using this software at your own risk. The author shall not
+# be held liable for ANY problems caused by using this software.
+
+It's a small python script that "imports" the MIDI drum channel into a Hydrogen file.
+It's designed to work "out of the box" with Hydrogen YamahaVintageKit (I like its sound).
+You can find it in the Hydrogen website (for free).
+
+Other drumkits are not supported (yet). That means that you'll find all the patterns messed up (ex. the rythm of the crash in the row of the snare... and so on).
+
+** How to use
+
+First of all, you have to install python. Then you can open a terminal and start to use the script.
+The syntax to use is:
+
+python midi2hydrogen.py input.mid output.h2song
+
+That's all.
+
+** Bugs
+
+The Tempo will certain be wrong and notes can be not aligned with Hydrogen's grid.
+It's very far from layout perfection...
+
+** Future plans
+
+I'm preparing a GUI, for the configuration and the file selections.
